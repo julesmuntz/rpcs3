@@ -60,7 +60,11 @@
         "USE_SYSTEM_OPENAL": "OFF",
         "USE_SYSTEM_OPENCV": "OFF",
         "BUILD_LLVM": "ON",
-        "STATIC_LINK_LLVM": "ON"
+        "STATIC_LINK_LLVM": "ON",
+        "Qt6_DIR": "I:/Qt/6.8.1/msvc2022_64/lib/cmake/Qt6",
+        "Qt6GuiTools_DIR": "I:/Qt/6.8.1/msvc2022_64/lib/cmake/Qt6GuiTools",
+        "Qt6CoreTools_DIR": "I:/Qt/6.8.1/msvc2022_64/lib/cmake/Qt6CoreTools",
+        "Qt6WidgetsTools_DIR": "I:/Qt/6.8.1/msvc2022_64/lib/cmake/Qt6WidgetsTools"
       },
       "vendor": {
         "microsoft.com/VisualStudioSettings/CMake/1.0": {
@@ -68,6 +72,10 @@
             "Windows"
           ]
         }
+      },
+      "environment": {
+        "QTDIR": "I:/Qt/6.8.1/msvc2022_64",
+        "CMAKE_PREFIX_PATH": "I:/Qt/6.8.1/msvc2022_64"
       }
     }
   ],
